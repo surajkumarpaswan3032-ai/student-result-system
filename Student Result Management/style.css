@@ -1,0 +1,64 @@
+body{
+    font-family: Arial;
+    background:#f2f2f2;
+    margin:0;
+}
+
+header{
+    background:#1e1e2f;
+    color:white;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+}
+
+header a{
+    color:white;
+    text-decoration:none;
+}
+
+nav a{
+    margin:0 10px;
+}
+
+.home{
+    text-align:center;
+    margin-top:80px;
+}
+
+.form-box{
+    background:white;
+    width:300px;
+    margin:40px auto;
+    padding:20px;
+    text-align:center;
+    border-radius:8px;
+}
+
+.form-box input{
+    width:90%;
+    padding:8px;
+    margin:8px 0;
+}
+
+button{
+    background:green;
+    color:white;
+    padding:8px;
+    border:none;
+    cursor:pointer;
+    width:100%;
+}
+
+table{
+    width:90%;
+    margin:30px auto;
+    background:white;
+    border-collapse:collapse;
+}
+
+th,td{
+    border:1px solid #ccc;
+    padding:10px;
+    text-align:center;
+}
